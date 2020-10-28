@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "href": "#book",
+      "title": "The Book"
+    },
+    {
+      "href": "#get",
+      "title": "Get the book"
+    },
+    {
+      "href": "#about",
+      "title": "About the author"
+    }
+  ]
+}

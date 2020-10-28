@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "href": "#book",
+      "title": "Buch"
+    },
+    {
+      "href": "#get",
+      "title": "Hol dir das Buch"
+    },
+    {
+      "href": "#about",
+      "title": "Über den Autor"
+    }
+  ]
+}
