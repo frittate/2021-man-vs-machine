@@ -1,5 +1,5 @@
 ---
-title: Blurb
+title: Man vs Machine
 description: 'Awesome description of the book.'
 ---
 

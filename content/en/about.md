@@ -3,4 +3,4 @@ title: About the author
 description: 'Awesome description of the book.'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida tellus quis metus cursus accumsan. Donec non sapien ligula. Sed eget dignissim dolor, ut vestibulum leo. Pellentesque tempor egestas lectus, vel euismod neque. Maecenas ullamcorper, libero et euismod auctor, nibh libero consequat odio, a rutrum enim enim quis arcu. Integer semper vestibulum accumsan. Morbi et nisl massa.
+Ragnar was born 1,000 years too late to be a proper viking and 1,000 years too early to command the Galactic Space Fleet. Instead he lives in the south of Germany, where he writes code by day and stories by night. His various creative endeavors can be found at <a href="https://www.advantarium.com">advantarium.com</a>.

@@ -1,5 +1,5 @@
 ---
-title: Testimonials
+title: Leserstimmen
 description: 'What others said'
 ---
 

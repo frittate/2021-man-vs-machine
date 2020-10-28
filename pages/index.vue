@@ -15,20 +15,31 @@
         <img src="/man-vs-machine-cover_2.jpg" alt="">
       </div>
     </div>
+
     <div class="pt-16 px-4 text-lg">
-      <nuxt-content :document="blurb" class="mb-12" />
-      <nuxt-content :document="testimonials" class="" />
+      <p class="uppercase font-black text-3xl mb-4">
+        {{ blurb.title }}
+      </p>
+      <nuxt-content :document="blurb" class="mb-12 prose" />
     </div>
-    <div class="pt-16 px-4 flex flex-col items-center">
-      <p class="uppercase text-3xl mb-8">
+    <div class="px-4 text-lg">
+      <p class="uppercase font-black text-3xl mb-4">
+        {{ testimonials.title }}
+      </p>
+      <nuxt-content :document="testimonials" class="prose" />
+    </div>
+
+    <div class="pt-16 px-4 flex flex-col items-center bg-gray-300 mt-16 pb-8">
+      <p class="uppercase font-black text-black text-3xl mb-8">
         {{ index.get }}
       </p>
       <Button v-for="button in buttons" :key="button.title" :href="button.href" :title="button.title" />
     </div>
-    <div class="pt-16 px-4 flex flex-col items-center">
-      <p class="uppercase text-3xl mb-8">
-        {{ index.aboutTitle }}
+    <div class="pt-16 px-4 flex flex-col text-lg">
+      <p class="uppercase font-black text-3xl mb-8">
+        {{ about.title }}
       </p>
+      <nuxt-content :document="about" class="mb-12 prose" />
     </div>
   </div>
 </template>
