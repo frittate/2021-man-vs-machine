@@ -3,8 +3,28 @@ title: Man vs Machine
 description: 'Awesome description of the book.'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida tellus quis metus cursus accumsan. Donec non sapien ligula. Sed eget dignissim dolor, ut vestibulum leo. Pellentesque tempor egestas lectus, vel euismod neque. Maecenas ullamcorper, libero et euismod auctor, nibh libero consequat odio, a rutrum enim enim quis arcu. Integer semper vestibulum accumsan. Morbi et nisl massa.
+There is a man chasing his rogue coffee maker. There is a Japanese DJ who doesn’t talk. There is a galactic business that sells planets and a mysterious woman who seems to live in bookstores…
 
-Maecenas euismod felis vel rutrum luctus. Praesent sed consectetur arcu. Nunc sodales mauris nunc, eget euismod mauris elementum et. Morbi eget nibh condimentum, imperdiet est eget, viverra dui. Cras vel enim rutrum, ultricies turpis eget, fringilla nulla. Proin tincidunt sit amet elit nec molestie. Fusce pharetra erat dictum neque malesuada laoreet. Donec quis turpis posuere, dapibus dolor id, interdum mi. Cras eu tortor sed erat facilisis luctus non non purus. Donec sodales sollicitudin tortor, nec efficitur nunc faucibus quis. Cras consectetur porta lectus eget imperdiet.
+Each one of the 13 stories in “Man vs Machine” opens the door to a completely new world, leaving you with a desire to read everything at once by jumping from one universe to the next by the turn of a page.
 
-Praesent eget sollicitudin magna. Vivamus euismod scelerisque enim, sed rutrum metus. Fusce blandit, orci a imperdiet eleifend, enim erat pulvinar risus, a convallis nunc ante ut purus. Integer porttitor varius quam a porttitor. Maecenas eu facilisis felis. Nam feugiat, augue in condimentum tincidunt, metus leo euismod odio, vitae placerat orci ligula eget augue. Quisque vitae euismod mi. Donec aliquam nibh in purus hendrerit, eu malesuada justo consequat. Donec vel tellus tortor. Fusce sed suscipit lectus. Donec et ipsum neque. Vivamus laoreet, odio in accumsan volutpat, arcu neque efficitur enim, id commodo magna justo sed metus.
+Powered by exact observations of people and places, Martinson’s concise prose pulls the reader into action sequences, thoughtful characters and unusual occurrences. His imaginary worlds seem to exist just around the corner of our everyday lives, making you see your days with new eyes.
+And while you are at it, find out how The Guide Michelin would rate a restaurant run by Satan himself.  <br>
+
+★ ★ ★ ★ ★ „Fantastic and thought-provoking“  <br>
+★ ★ ★ ★ ★ „A fun ride!“  <br>
+★ ★ ★ ★ ★ „Excellent storytelling.“  <br>
+
+Includes 13 short stories:
+1. [Man vs Machine](/man-vs-machine)
+2. How Rhys sold a planet
+3. The Delivery
+4. Shady's Grave
+5. The Exam
+6. Equation
+7. What the rush, Stereo Boy?
+8. The Reader
+9. On the selling of dangerous goods
+10. The man with the black gloves
+11. Hell's Kitchen
+12. Boxes
+13. How to make a magic item

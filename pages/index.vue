@@ -1,6 +1,6 @@
 <template>
   <div class="md:max-w-xl lg:max-w-5xl text-white font-inter">
-    <Navigation :lang="currentLanguage" />
+    <!-- <Navigation :lang="currentLanguage" /> -->
     <div class="flex flex-col items-center">
       <h1 class="title text-4xl font-black lg:text-6xl block pt-16 bold leading-tight">
         {{ index.h1 }}
@@ -12,7 +12,7 @@
         {{ index.h3 }}
       </h3>
       <div class="pt-16">
-        <img src="/man-vs-machine-cover_2.jpg" alt="">
+        <img src="/man-vs-machine-cover.jpg" alt="">
       </div>
     </div>
 
@@ -20,38 +20,33 @@
       <p class="uppercase font-black text-3xl mb-4">
         {{ blurb.title }}
       </p>
-      <nuxt-content :document="blurb" class="mb-12 prose" />
+      <nuxt-content :document="blurb" class="mb-12 prose text-white" />
     </div>
-    <div class="px-4 text-lg">
+    <!--  <div class="px-4 text-lg">
       <p class="uppercase font-black text-3xl mb-4">
         {{ testimonials.title }}
       </p>
       <nuxt-content :document="testimonials" class="prose" />
-    </div>
+    </div> -->
 
-    <div class="pt-16 px-4 flex flex-col items-center bg-gray-300 mt-16 pb-8">
-      <p class="uppercase font-black text-black text-3xl mb-8">
-        {{ index.get }}
-      </p>
-      <Button v-for="button in buttons" :key="button.title" :href="button.href" :title="button.title" />
-    </div>
+    <GetBlock />
     <div class="pt-16 px-4 flex flex-col text-lg">
       <p class="uppercase font-black text-3xl mb-8">
         {{ about.title }}
       </p>
-      <nuxt-content :document="about" class="mb-12 prose" />
+      <nuxt-content :document="about" class="mb-12 prose text-white" />
     </div>
   </div>
 </template>
 
 <script>
-import Button from '@/components/Button'
-import Navigation from '@/components/Navigation'
+// import Navigation from '@/components/Navigation'
+import GetBlock from '@/components/GetBlock'
 
 export default {
   components: {
-    Button,
-    Navigation
+    GetBlock
+    // Navigation
   },
   async fetch () {
     this.blurb = await this.$content(`${this.currentLanguage}/blurb`).fetch()
@@ -64,37 +59,7 @@ export default {
       about: {},
       blurb: {},
       testimonials: {},
-      index: {},
-      buttons: [
-        {
-          title: 'Amazon DE',
-          href: 'www.amazon.de'
-        },
-        {
-          title: 'Amazon UK',
-          href: 'www.amazon.co.uk'
-        },
-        {
-          title: 'Amazon US',
-          href: 'www.amazon.co.uk'
-        },
-        {
-          title: 'PDF e-book',
-          href: 'www.ebook.uk'
-        },
-        {
-          title: 'Apple iBook',
-          href: 'www.amazon.co.uk'
-        },
-        {
-          title: 'Tolino',
-          href: 'www.amazon.co.uk'
-        },
-        {
-          title: 'Barnes & Nobles',
-          href: 'www.amazon.co.uk'
-        }
-      ]
+      index: {}
     }
   },
   computed: {
@@ -104,6 +69,11 @@ export default {
   },
   watch: {
     '$route.query': '$fetch'
+  },
+  head () {
+    return {
+      title: 'Man vs Machine | A collection of short stories | Ragnar Martinson'
+    }
   }
 }
 </script>
