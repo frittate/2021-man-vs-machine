@@ -13,6 +13,19 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;900&family=Raleway&display=swap' }
+    ],
+    script: [
+      {
+        hid: 'fathom', // unique identifier
+        src: 'https://cdn.usefathom.com/script.js',
+        site: 'DNRJDVTF',
+        spa: 'auto', // set by fathom
+        defer: 'defer',
+        once: true, // only load once on SSR
+
+        // optional: skip loading script if we aren't in production
+        skip: false
+      }
     ]
   },
 
