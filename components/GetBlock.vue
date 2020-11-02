@@ -3,7 +3,7 @@
     <p class="uppercase font-black text-black text-3xl mb-8">
       {{ index.get }}
     </p>
-    <Button v-for="button in buttons" :key="button.title" :href="button.href" :title="button.title" />
+    <Button v-for="button in buttons" :key="button.title" :href="button.href" :title="button.title" :tracking="button.tracking" />
   </div>
 </template>
 
@@ -23,7 +23,8 @@ export default {
       buttons: [
         {
           title: 'Amazon DE',
-          href: 'https://www.amazon.de/-/en/gp/product/B08MBBMJPB'
+          href: 'https://www.amazon.de/-/en/gp/product/B08MBBMJPB',
+          tracking: 'U7GCF9HO'
         },
         {
           title: 'Amazon UK',
@@ -31,7 +32,8 @@ export default {
         },
         {
           title: 'Amazon US',
-          href: 'https://www.amazon.com/-/en/gp/product/B08MBBMJPB'
+          href: 'https://www.amazon.com/-/en/gp/product/B08MBBMJPB',
+          tracking: 'IRRPRDWU'
         },
         {
           title: 'Tolino - Thalia',
@@ -43,7 +45,8 @@ export default {
         },
         {
           title: 'PDF File',
-          href: 'https://payhip.com/b/5kX7'
+          href: 'https://payhip.com/b/5kX7',
+          tracking: 'ZM3O0BDE'
         }
       ]
     }
